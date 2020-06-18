@@ -48,10 +48,10 @@ $(document).ready(function() {
     // [ "tues1", "tues2", "tues3"]
     favMonThingsKeys.forEach(function(key){
       $("ul#output").append("<li>" + key + ": " + dog.favThingsByDayOfWeek[0][key] + "</li>");
-    }) // "toys", "the dog park", "food"
+    }) // "mon1: toys", "mon2: the dog park", "mon3: food"
     favTuesThingsKeys.forEach(function(key){
       $("ul#output").append("<li>" + key + ": " + dog.favThingsByDayOfWeek[1][key] + "</li>");
-    }) // "food", "naps", "more naps"
+    }) // "tues1: food", "tues2: naps", "tues3: more naps"
   });
 });
 
